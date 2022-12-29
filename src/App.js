@@ -13,7 +13,7 @@ function App() {
     if (storeUserLoggedInformation === '1') {
       setIsLoggedIn(true);
     }
-  }, []);
+  }, []); //
 
   const loginHandler = (email, password) => {
     // We should of course check email and password
