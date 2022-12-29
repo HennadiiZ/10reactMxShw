@@ -12,3 +12,6 @@ root.render(<App />);
   // 111 Using the useEffect() Hook
 
   // 112 useEffect & Dependencies
+
+  // 114 Using the useEffect Cleanup Function
+  
