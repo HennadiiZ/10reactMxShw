@@ -22,4 +22,10 @@ root.render(<App />);
 
   // 118 useReducer & useEffect
 
-  
+  // //   120 useReducer vs useState for State Management
+
+  // 121 Introducing React Context (Context API)
+
+  // 122 Using the React Context API
+      // AuthContext.Provider
+      // AuthContext.Consumer
