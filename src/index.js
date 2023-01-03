@@ -4,8 +4,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 
+import {AuthContextProviders} from './store(context)/auth-context';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
+root.render(
+  <AuthContextProviders>
+    <App />
+  </AuthContextProviders>
+);
 
 
 // 10 Advanced_ Handling Side Effects, Using Reducers & Using the Context API
@@ -35,4 +41,5 @@ root.render(<App />);
       // useContext()
 
   // 124 Making Context Dynamic
-  
+
+  // 125 Building & Using a Custom Context Provider Component
