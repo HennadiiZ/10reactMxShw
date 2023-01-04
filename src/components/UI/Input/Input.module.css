@@ -1,11 +1,11 @@
-.login {
+/* .login {
   width: 90%;
   max-width: 40rem;
   margin: 2rem auto;
   padding: 2rem;
-}
+} */
 
-/* .control {
+.control {
   margin: 1rem 0;
   display: flex;
   align-items: stretch;
@@ -41,11 +41,11 @@
 .control.invalid input {
   border-color: red;
   background: #fbdada;
-} */
-
-.actions {
-  text-align: center;
 }
+
+/* .actions {
+  text-align: center;
+} */
 
 @media (min-width: 768px) {
   .control {
